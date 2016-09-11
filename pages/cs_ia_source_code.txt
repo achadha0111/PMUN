@@ -1,0 +1,2838 @@
+
+Source Code
+<!-- COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 -->
+<!-- Photographs are property of the United Nations: The following photos have been used:
+	Homepage - Concert Celebrating the 70th Anniversary of the Signing of the UN Charter/Loey Felipe
+	General Information Page - United Nations Headquarters/Joao Araujo Pinto
+	Research Page - Election of Five New Non-Permanent Members of Security Council/Mark Garten
+	Committee Page - UN Headquarters Renovation Seen from City Skyline/Rick Bajornas
+	Registration Pge - Queen Elizabeth II of United Kingdom Addresses General Assembly/JC McIlwaine
+-->
+<!-- Homepage HTML Code begins -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<!-- Photographs are property of the United Nations: The following photos have been used:
+	Homepage - Concert Celebrating the 70th Anniversary of the Signing of the UN Charter/Loey Felipe
+	General Information Page - United Nations Headquarters/Joao Araujo Pinto
+	Research Page - Election of Five New Non-Permanent Members of Security Council/Mark Garten
+	Committee Page - UN Headquarters Renovation Seen from City Skyline/Rick Bajornas
+	Registration Pge - Queen Elizabeth II of United Kingdom Addresses General Assembly/JC McIlwaine
+-->
+<html>
+<head>
+<title> PMUN | Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = 'stylesheet' href="Styles/bootstrap.min.css"/>
+<link rel = 'stylesheet' href="Styles/homepage.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<!-- Page Body -->
+<div class = "jumbotron vertical-center">
+	<img align = "left"  src = "bg1.jpg" height="145" width="200" >
+	<h1> Podar Model United Nations 2015</h1>
+	 
+</div>
+
+<nav class = "menu">
+	<div class = "container-fluid" >
+		<div class = "row-fluid">
+			<div class = "dropdown">
+					<button type="button" class="navbar-toggle" data-toggle = "dropdown">
+						<span class = "glyphicon glyphicon-align-justify" style = "color:#fff"></span>
+					</button>
+					<script type="text/javascript" src="menu.js"></script>
+				</div>
+			</div>
+		</div>
+</nav>
+  
+  
+<section class = "body">
+	<div class = "container">
+		<div class = "row" >
+			<div class = "col-md-6">		
+			<p> Diplomacy Begins: 27th August, 2015 </p>
+			</div>
+            
+            
+            
+		</div>
+	</div>
+
+</section>
+
+
+
+<script src = 'scripts/jquery-2.1.4.min.js'></script>
+<script src= 'scripts/bootstrap.js'></script>
+		
+</body>
+</html>
+<!-- homepage HTML Code ends -->
+<!-- Homepage JS begins -->
+// JavaScript Document
+
+document.write('<ul class = "dropdown-menu" role = "drop-menu" arialabelledby="guide-label">');						
+	document.write('<li><a href=index.html>Home</a> </li>');
+	document.write('<li><a href=geninfo.html> General Information </a></li>');
+	document.write('<li><a href=research.html> Research </a></li>');
+	document.write('<li><a href=committee.html> Committees </a></li>');
+	document.write('<li><a href=delegate.php> Registration </a></li>');
+	document.write('<li><a href=press.html> Press Release </a></li>');
+document.write('</ul>');
+<!-- Homepage JS ends -->
+<!-- Homepage CSS begins -->
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/homepage.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+
+/* Drop Down Menu */
+
+.navbar-toggle {
+	position:relative;
+	font-size: 30px;
+	float:left;
+	display:block;
+	padding: 9px 10px;
+	color: #fff;
+	background-image: none;
+	border: 0 none;
+	top:0px; 
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	outline: 0;
+	opacity: 1;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+	        float: left;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+.open .navbar-toggle { 
+	top:-70px; 
+	opacity: 0;  
+}
+.dropdown-menu {
+	position: absolute;
+	top: -14em;
+	left: 0px;
+	font-size: 20px;
+	padding:0;
+	background:none;
+	border:0 none;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	display:block;
+	opacity:0;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+	
+}
+.menu .dropdown-menu .active { 
+	font-weight:bold;
+}
+.menu .open .dropdown-menu { 
+	top:2px;
+	opacity:1;
+}
+.menu .dropdown-menu a { 
+	padding:10px 10px;
+	margin:0;
+	color:white;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+.menu .dropdown-menu a:hover { 
+	background:rgba(255,255,255,.5);
+	color:black;
+	padding:10px 8px 10px 12px;
+}
+.body {
+	font-size: 60px;
+	color: #fff;
+	font-family: "Lucida Calligraphy";
+}
+
+.jumbotron {
+   background: #fff;
+   text-align: left;
+   color: #000;
+   font-family: "Lucida Calligraphy", "Times New Roman";
+}
+.img {
+	max-width: 30%;
+}
+<!-- Homepage CSS ends -->
+<!-- General Information Page HTML code begins -->
+<html>
+<head>
+<title> PMUN | General Information</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = 'stylesheet' href="/web-files/Styles/bootstrap.min.css"/>
+<link rel = 'stylesheet' href="/web-files/Styles/geninfo.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class = "jumbotron">
+	<h1> General Information </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			  General Information<span class="caret"></span>
+		  </a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			  Registration<span class="caret"></span>
+		  </a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			<li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+
+
+
+<section id = "infcols">
+	<div class = "container">
+		<div class="row">
+				<div class="col-md-3 col-sm-3">
+					<h3> Important Dates </h3>
+					<br> Registration deadline: 20th August, 2015 
+					<br> Submission of position papers: 22st August, 2015
+					<br> Conference Dates: 27th and 28th August, 2015
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<h3> Payment Information </h3>
+					<p>
+						A Payment of Rs. 700 has to be made in the form of a cheque addressed to:
+						"Podar International School". The deadline for this is 20th August, 2015. This will be
+						collected by the logistics team, headed by Abhinav Rao and Sabrita Anand.
+					</p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12" >
+					<h3>About</h3>
+					<p>
+						Any queries pertaining to the conference must be emailed to: <a href = "contact.php">podarmun2015@gmail.com</a>
+						<br>The presidents can be reached at: <br>
+						1) Aayush Chadha - <u>aayushchadha0111@gmail.com</u> <br>
+						2) Suprabhe Ballary <u>suprabheballary@gmail.com</u> <br>
+						Site Designed and Developed by: Aayush Chadha<br>
+						Logo Design and Slogan: Isha Nabar
+					</p>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<h3> Schedule </h3>
+					<p> <h4> <u>Day 1 - 27/08/15</u> </h4>
+						- Opening Ceremony: 7:30 A.M<br>
+						- Committee Session Begins: 8:15 A.M<br>
+						- Breakfast: 10:00 A.M - 10:15 A.M <br>
+						- Committee Session till 12:30 P.M<br>
+						- Lunch: 12:30 - 1:10 P.M<br>
+						- Final Session: 1:10 - 3:00 P.M
+						<br>
+						<h4> <u>Day 2 - 28/08/15</u> </h4>
+						- Committee Session Begins: 8:15 A.M<br>
+						- Breakfast: 9:30 A.M - 9:45 A.M <br>
+						- Committee Session till 12:30 P.M<br>
+						- Lunch: 12:30 - 1:00 P.M<br>
+						- Final Session: 1:00 - 2:00 P.M
+						
+					</p>
+				</div>
+				
+				<div class="col-md-12">
+					<h3> <u>Frequently Asked Questions</u> </h3>
+					<ol>
+					<li>
+						How do I prepare for this event?
+					<p>
+						A good place to start will be the <a href = "research,html">Research </a> section on this website.
+					</p>
+					</li>
+					<li>
+						What is the dress code for this event?
+						<p>
+							Western formals is the standard dress code for this event. However, Indian dresses are permitted in the Indian Youth Parliament and Joint Action Committee.
+							<br>
+							<u>For boys:</u> Tie, formal shirts and formal pants. A jacket is recommended. Shoes should be formal, no sneakers, sandals or slippers are allowed(certain exceptions in JAC and IYP). 
+							You may not be allowed to attend committee if the dresscode is breached. <br>
+							<u> For girls: </u> Western Business attire. Skirts and dresses are permitted as long as they are of respectable length.
+						</p>
+					</li>
+					<li>
+						Where is the registration money used?
+						<p>
+							The fee paid by each delegate is used in providing breakfast and lunch on both days of conference. It also includes refreshments such as water bottles, juices and chocolates. The cost of stationery is covered by this fee as well.
+						</p>
+					</li>
+					<li>
+						Can we use electronic devices during the conference?
+						<p>
+							You may use electronic devices only during the unmoderated caucus. At all other times, please refrain from using them. The only exception to this rule is the Security Council, where by the discretion of the chair, you can use your laptops throughout.
+						</p>
+					</li>
+					</ol>
+				</div>
+				</div>
+	</div>
+</section>
+			
+
+
+
+<script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+<script src= '/web-files/scripts/bootstrap.js'></script>
+
+</body>
+</html>
+<!-- General Information Page HTML code ends -->
+<!-- Contact Page HTML begins -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<?php
+    if (isset($_POST["submit"])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        $from = 'Contact-Us'; 
+        $to = 'podarmun2015@gmail.com'; 
+        $subject = 'PMUN';
+        
+        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+ 
+        // Check if name has been entered
+        if (!$_POST['name']) {
+            $errName = 'Please enter your name';
+        }
+        
+        // Check if email has been entered and is valid
+        if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            $errEmail = 'Please enter a valid email address';
+        }
+        
+        //Check if message has been entered
+        if (!$_POST['message']) {
+            $errMessage = 'Please enter your message';
+        }
+     
+// If there are no errors, send the email
+if (!$errName && !$errEmail && !$errMessage) {
+    if (mail ($to, $subject, $body, $from)) {
+        $result='<div class="alert alert-success">Thank You! We will reply shortly</div>';
+        $_POST = array();
+    } else {
+        $result='<div class="alert alert-danger">Your message could not be sent.</div>';
+    }
+}
+    }
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PMUN | Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href="/web-files/Styles/geninfo.css">
+  </head>
+  <body>
+<div class = "jumbotron">
+	<h1> General Information </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+            </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+            <li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+<div class = "row">
+ <h1 align = "center"><u> Contact Us</u> </h1>
+<form class = "form-horizontal" role = "form" method = "post" action = "contact.php">
+   <div class = "form-group">
+     <label for = "name" class = "col-sm-2 control-label"> Name: </label>
+     <div class = "col-sm-8">
+        <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+     </div>
+    </div>
+    <div class = "form-group">
+     <label for = "email" class = "col-sm-2 control-label"> Email: </label>
+     <div class = "col-sm-8">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Your email id" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+     </div>
+    </div>
+     <div class = "form-group">
+     <label for = "message" class = "col-sm-2 control-label"> Message: </label>
+     <div class = "col-sm-8">
+        <textarea class = "form-control" rows = "4" name = "message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+        <?php echo "<p class='text-danger'>$errMessage</p>";?>
+     </div>
+    </div>
+    <div class = "form-group">
+     <div class = "col-sm-8 col-sm-offset-2">
+        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+     </div>
+    </div>
+    <div class = "form-group">
+     <div class = "col-sm-8 col-sm-offset-2">
+       <?php echo $result; ?>	
+     </div>
+    </div>
+</div>
+<script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+<script src= '/web-files/scripts/bootstrap.js'></script>
+  </body>
+</html>
+<!-- Contact Page HTML ends -->
+
+<!-- General Information Page CSS begins -->
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/geninfobg.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.row {
+	background: rgb(214,59,59);
+	background: rgba(214,59,59,0.7);
+	color:#fff;
+	bottom: 0;
+	margin-top: 15px;
+	padding-top: 20px;
+}
+
+	
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+
+.contact-form {
+	margin-top: 20px;
+}
+<!-- General Information Page CSS ends -->
+<!-- Research page HTML begins -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<html>
+<head>
+<title> PMUN | Research</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = 'stylesheet' href="/web-files/Styles/bootstrap.min.css"/>
+<link rel = 'stylesheet' href="/web-files/Styles/research.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Start -->	
+	<div class = "jumbotron">
+	<h1> Research </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+            <li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+<!-- Header End -->
+
+<!-- Main body section begins-->
+	<div class ="mainbody-section text-center">
+		<div class="container">
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "procedure">
+						<a href="/web-files/documents/Procedure.pdf" target="_blank_">
+							<i style = "color:#fff" class = "fa fa-file fa-2x"></i>
+							<p style="color:#fff"> Procedure (Download) </p>
+						</a>
+					</div>
+					
+					
+					<div class = "positionpaper">
+						<a href="#pp-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-pencil-square-o fa-2x"></i>
+							<p style = "color:#fff"> Writing the Position Paper </p>
+						</a>
+					</div>
+
+					<div class = "gsl">
+						<a href="#g-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-bars fa-2x"></i>
+							<p style = "color:#fff"> General Speaker's List </p>
+						</a>
+					</div>
+				</div>
+			
+				<div class = "col-md-6">
+					<div class = "speech">
+						<a href="#s-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-microphone fa-2x"></i>
+							<p style = "color:#fff">Making a speech</p> 
+						</a>
+					</div>
+
+					<div class = "resolution">
+						<a href="#r-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-pencil fa-2x"></i>
+							<p style = "color:#fff">Writing a resoution</p> 
+						</a>
+					</div>
+
+					<div class = "f-research" data-toggle="modal">
+						<a href="#fr-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-book fa-2x"></i>
+							<p style = "color:#fff">More research resources</p> 
+						</a>
+					</div>
+				</div>	
+					
+			</div>
+			
+		</div>
+		
+	</div>
+<!-- Main body section ends -->
+
+<!-- Modal code -->
+<div class="modal fade" id="pp-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "Position-Paper"> Guide to Position Paper Writing</h4>
+                    	</div>
+                    	<div class = "modal-body">
+A position paper is essentially an essay which delineates your country’s/organization’s stand on the agenda. It helps you define the sequence for any ideas you may present in committee. This isn’t too difficult a task if you have researched your position well.
+<br>
+The chairs often ask for them a week prior to the conference in order to obtain an idea of the direction in which the discussion is headed. They also factor it in when making decisions about awarding best delegates. Your position paper should not only highlight your country’s policies but also suggest resolutions. A good starting off point is often the study guide that is provided by your selected committee.
+<br>
+Introduce your country and it’s historic relationship with the agenda and the committee.
+Explain how the issue effects your country.
+What policies pertain to this issue in your country and the justification for the same.
+Facts and figures to substantiate your claims.
+Previous UN conventions and resolutions signed or ratified by your country in relation to this issue.
+Other UN policies supported by your country.
+Recommendations for resolutions.
+How does the position of other countries affect your country.
+<p style="text-decoration:underline"> Parting thoughts: </p>
+<ol>
+    <li>Don’t make it too long.</li>
+    <li>A single page suffices as long as it covers the above guidelines.</li>
+    <li>Language should be formal and not utilising slangs or abbreviations.</li>
+    <li>Think of your paper as an opening speech.</li>
+</ol>
+<br>
+                            <p style="text-decoration:underline"> Sample Position Paper </p>
+                    		Committee: International Labor Organization<br>
+							Topic: Globalization and Development<br>
+							Country: Romania<br>
+							<br>
+							In the past two decades the rapidly growing world trend has been toward globalization. With the emergence of the internet as a means of communication and the increasing accessibility of international trade physical barriers are not the only barriers withering away. Protective tariffs are plummeting and free trade agreements are becoming more prevalent. Romania appreciates that globalization creates favorable situations for expansion of commercial as well as economic assets. In the past year Romania has seen a foreign direct investment (FDI) increase of 199%. Inward FDI increased from EURO 234 million in 2005 to EURO 699 million in 2006. However, Romania realizes that increased globalization does not automatically produce more equality.
+							<br>
+							Globalization and Development can contribute to the advancement of the overall international human condition; however, the delegation of Romania recognizes that without proper regulation the potential for advancement will remain limited to an elite few individuals, businesses, and nations. Unless checked and aimed toward the common good, globalization cannot effectively serve the global community. Crucial in dealing with the complexities of globalization, good governance must act with solidarity and responsibility. Romania believes that in involving people in globalization we must promote moral values, democratic principals, inclusive global political culture, institutions that safeguard both individual civil rights and inherent freedoms, and the common good. In addition, coping with the influx of information from globalization governments must act with solidarity and insight. Access to digital education will undoubtedly result in the confidence of citizens in their respective administrations and allow for a greater degree of transparency, and therefore a lesser degree of corruption.
+							<br>
+							Romania believes the multinational business community has the ability and the obligation to support pertinent values in human rights, labor standards, and environmental preservation. As stated by the president, Mr. Traion Basescu, Romania feels a "heartfelt attachment to multilateralism, as an effective instrument designed to identify the adequate answers to the challenges brought by globalization."
+							<br>
+							Romania is party to the majority of multilateral treaties and conventions identified as such by the Secretary General in the context of the Millennium Summit in 2001. Romania has always supported innovative and effective ways of establishing cooperation within and between regional organizations. As one of the newest members of the European Union, Romania is an active member of the World Trade Organization, and looks forward to offering its support to the redirection of globalization to best benefit the global community.
+                    		
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="g-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "gsl-modal"> Understanding the GSL</h4>
+                    	</div>
+                    	<div class = "modal-body">
+                    		Coming Soon
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="s-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "speech-modal"> Making a speech</h4>
+                    	</div>
+                    	<div class = "modal-body">
+                    		Making speeches is a critical part of the MUN. Generally, formal speeches will be required on 2 occasions: 
+<ol>
+<li>During the general speaker’s list</li>
+<li>During formal debating.</li>
+</ol>
+<p>
+
+It is imperative to be on point with your speeches in order to gain an upper hand during the committee sessions. The ability to persuade is a key trait required during the MUN. Not only must you appeal to the logical side of the argument but also attend to the feelings of others. Before any point can be made, it is necessary to get the attention of others. This should be followed by the use of appropriate oral and body language to maintain their attention and cause them to act upon your instructions. There will be many other speakers after you, your speech should remain ingrained in the mind of each delegate in the committee.
+</p>
+<p>
+<ol>
+<li>Humour can be dangerous during serious discussions and might cause you to be frowned upon by other delegates and members of the EB.
+<li>Try and have as much evidence for your cause as possible. By piling examples, you can influence other delegates into thinking that you are well prepared, even if you aren’t. However, caution must be observed, the credibility of your facts can be questioned and it may tarnish your reputation if the source is dubious.</li>
+<li>Quotations and Quips: Very hand speaking tools, instant attention grabbers. Ensure that they are relevant and come from someone recognisable.
+<li>At times, you may have only a minute to make your points clear, don’t beat around the bush.</li>
+<li>If you forget, write down the key things you want to cover while you speak.</li>
+</ol>
+</p>
+<p>
+<u>Maintain Attention:</u>
+</p>
+<ol>
+<li>Statistics, examples and opinions of experts often makes people sit up and listen. Ensure statistics are up to date.</li>
+<li>Explain how the problem affects various countries.</li>
+<li>If needed, vividly explain how your opposition’s suggestions have issues in them.</li>
+<li>When discussing solutions, be specific about how your proposals will be effective. Try and bring in references to similar previous solutions that have worked/worked to some extent.</li>
+<li>Appeal for action at the end of your time. Try and summarise and or reiterate your stand.</li>
+</ol>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="r-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "reso-modal"> Writing a resolution</h4>
+                    	</div>
+                    	<div class = "modal-body">
+                    		
+<p>
+A resolution is a document that contains all the issues the committee tried to solve and proposed solutions. A resolution which hasn’t been voted upon is called a draft resolution. It only turns into a resolution once it is passed during voting bloc.
+</p>
+<p>
+Any delegation can write a resolution. The lead author or the one who initiates the resolution writing is called a sponsor. Multiple delegations may sponsor a resolution if significant contributions have come in.
+</p>
+<p>
+A resolution is typically written during unmoderated caucus. During this time you can collaborate with other delegates and try and incorporate the view of as many delegations as possible. Work on resolution usually begins after multiple debates have been held.
+</p>
+<p>
+The resolution can be looked upon as the final aim of a committee. All the speeches, lobbying and teamwork should build up to this. The strength of a committee is often reflected by their ability to pass a resolution and it’s quality.
+</p>
+<p>
+A resolution must be formatted in the following manner:
+</p>
+<u>Heading:</u>
+<p>
+    4 pieces of information:
+<ol>
+ <li>Committee Name </li>
+ <li>Sponsors </li>
+ <li>Signatories(delegations that don’t contribute yet
+want to see the resolution debated) </li> 
+<li>The topic</li>
+</ol>
+<p>
+<u>Pre-ambulatory clauses:</u>
+
+Contains all the issues the committee wants to resolve. Contains reasons why the committee is working on this issue and information on previous courses of action undertaken by the committee. A general layout would be:
+
+<u>Underlined pre-ambulatory phrase</u> + statement + comma
+</p>
+<p>
+<u>Operative clauses:</u>
+
+Operative clauses states the solutions you have arrived at. It should address the issues specifically mentioned in the pre-ambulatory clauses above it.
+
+A general format is:
+
+Serial Number + Operative Clause phrase + solution + semi-colon(period in case of last clause)
+
+You may have sub operative clauses to cover anything you think may not be adequately covered in your main clause.
+</p>
+<p>
+<u>Amendments:</u>
+<br>
+Amendments are of two types:
+<ol>
+<li> Friendly: A change to the draft resolution that all sponsors agree with. It must be signed by all sponsors and approved by the committee chair.</li>
+<li> Unfriendly amendment: A change not supported by all sponsors and requires voting. A certain number of signatories will be required to introduce it. Prior to voting on the draft resolution, the committee must vote on unfriendly amendments.</li>
+</ol>
+</p>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="modal fade" id="fr-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "fr-modal"> Further Research</h4>
+                    	</div>
+                    	<div class = "modal-body">
+                    		<ol>
+                            <li>CIA World Factbook</li>  
+                            <li>United Nations Website</a>
+                            <li> Government and Central Bank websites of your respective countries.</li>  
+                            <li> Trusted news publications.</li>
+                            </ol>
+                        By no means restrict yourself to these sources, these are just given as a launchpad to get the ideas flowing.
+                        <p> <b> USE WIKIPEDIA WITH CAUTION </b></p>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        
+<!--Modal code ends -->
+<script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+<script src= '/web-files/scripts/bootstrap.js'></script>
+</body>
+</html>
+<!-- Research page HTML ends -->
+<!-- CSS - Research Page -->
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/research.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+
+
+
+
+.row > div > .procedure{
+	background: rgb(255, 79, 43);
+	background: rgba(255, 79, 43,1);
+	bottom: 1px;
+	font-size: 20px;
+	margin-top: 25px;
+	height: 100px;
+	padding: 10px;
+	
+}
+
+.row > div > .positionpaper{
+	background: rgb(32,178,170);
+	background: rgba(32,178,170,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 50px;
+	height: 100px;
+	padding: 10px;
+
+
+}
+.row > div > .gsl {
+	background: rgb(63,230,148);
+	background:rgba(63,230,148,1);
+	font-size: 20px;
+	margin-top: 50px;
+	height: 100px;
+	padding: 10px;
+}
+
+.row > div > .speech{
+	background: rgb(0,154,205);
+	background: rgba(0,154,205,1);
+	bottom: 1px;
+	margin-top: 25px;
+	font-size: 20px;
+	height: 100px;
+	padding: 10px;
+	
+}
+
+.row > div > .resolution{
+	background: rgb(255,215,0);
+	background: rgba(255,215,0,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 50px;
+	height: 100px;
+	padding: 10px;
+
+
+}
+
+.row > div > .f-research{
+	background: rgb(255,165,0);
+	background: rgba(255,165,0,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 50px;
+	height: 100px;
+	padding: 10px;
+
+
+}
+<!-- CSS - Research Page -->
+<!-- Committee Page HTML begins -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<html>
+<head>
+<title> PMUN | Committees</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = 'stylesheet' href="/web-files/Styles/bootstrap.min.css"/>
+<link rel = 'stylesheet' href="/web-files/Styles/committee.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header Start -->	
+	<div class = "jumbotron">
+	<h1> Committees </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			 <li><a href="press.html">Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+<!-- Header End -->
+
+<!-- Main body section begins-->
+	<div class ="mainbody-section text-center">
+		<div class="container">
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "unsc">
+						<a href="#unsc-modal" data-toggle = "modal">
+							<i style = "color:#fff" class = "fa fa-fighter-jet fa-2x"></i>
+							<p style="color:#fff"> UNSC </p>
+						</a>
+					</div>
+					
+					<div class = "disec">
+						<a href="#disec-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-bomb fa-2x"></i>
+							<p style = "color:#fff"> DISEC </p>
+						</a>
+					</div>
+
+					<div class = "hrc">
+						<a href="#hrc-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-child fa-2x"></i>
+							<p style = "color:#fff"> UNHRC </p>
+						</a>
+					</div>
+					
+					<div class = "unodc">
+						<a href="#unodc-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-ship fa-2x"></i>
+							<p style = "color:#fff">UNODC</p> 
+						</a>
+					</div>
+				</div>
+				
+				<div class = "col-md-6">
+					 <div class = "jac" data-toggle="modal">
+						<a href="#jac-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-plane fa-2x"></i>
+							<p style = "color:#fff">JAC</p> 
+						</a>
+					</div>
+					
+					<div class = "iyp" data-toggle="modal">
+						<a href="#iyp-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-university fa-2x"></i>
+							<p style = "color:#fff">IYP</p> 
+						</a>
+					</div>
+                    
+                    <div class = "g20" data-toggle="modal">
+						<a href="#g20-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-industry fa-2x"></i>
+							<p style = "color:#fff">G20</p> 
+						</a>
+					</div>
+                    
+                   <div class = "who">
+						<a href="#who-modal" data-toggle="modal">
+							<i style = "color:#fff" class = "fa fa-medkit fa-2x"></i>
+							<p style = "color:#fff">WHO</p> 
+						</a>
+					</div>
+				</div>	
+					
+			</div>
+			
+		</div>
+		
+	</div>
+<!-- Main body section ends -->
+
+<!-- Modal code -->
+<div class="modal fade" id="unsc-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    <div class="modal-header">
+                    	<h4 class="modal-title" id = "unsc-modal"> United Nations Security Council</h4>
+                    </div>
+                    	<div class = "modal-body">
+							<h4><u> Chair:</u> Tanay Bhatia </h4>
+							<h4><u> Co-Chair:</u> Tanay Seth </h4>
+							<h4><u> Moderator:</u> Yug Adalja </h4>
+							<a href="documents/UNSC.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+							<h4>Agenda: Combatting the ISIS in Iraq and Syria</h4>
+							
+							</p>
+							<p>
+							In recent history, the Middle East has been a hotbed of violence, instability and religious conflict. 
+							The leading cause of this instability and violence has been the sectarian divide between the Sunnis and the Shias. 
+							After the death of its founder, Muhammad, the religion of Islam split into two sects: The Sunnis and the Shias. 
+							The Sunnis believed that the next leader should be elected from a selection of worthy candidates, whereas the Shias believed that the next leader and the ones following him must be descendants of Muhammad.
+							Islam split into two sections with very different views and visions for Islam and its future. Over time, the animosity between Sunnis and Shias has become more extreme.
+							In recent history, there have been many instances of a particularly dominant Sunni or Shia group which wants to use a radical route to spread its sectarian version of the Islamic faith and its beliefs across the world. 
+							Most of them have been very similar in their approach using risky suicidal missions to garner attention in the world and to passively persuade fellow Muslims to join the ‘Islamic cause’. 
+							</p>
+							<p>
+								
+							The Al Qaeda, the Taliban and many other such terrorist organisations have dominated global headlines and also the main dialogue of the United Nations on terrorism and extremism. However, the ISIS is nothing like what we have seen before. 
+							It doesn’t portray itself as any other terrorist organisation, but rather likes to reckon itself to a state: The Islamic State. 
+							It has a functional bureaucracy, an army which is led by former military commanders and also has an economic and social agenda. 
+							It is a caliphate, which is proving to be much more organised, structured and ambitious than the normal Islamic extremist organisation.
+							 The ISIS believes in spreading Islam throughout the world, not through propaganda and terrorism, but by annexation and rule. 
+							 Over the past year, the ISIS has had substantial gains in Iraq and Syria. 
+							 Even now, with a multi country coalition engaged in fighting the ISIS, the gains made by the ISIS prove that defeating the ISIS is not going to be any mean feat. 
+							 It would require substantial planning, co-operation and vision to destroy this organisation and once again establish peace in the war torn Iraq and Middle East.
+                    		</p>
+                    	</div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="disec-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "disec-modal"> Disarmament and International Security</h4>
+                    	</div>
+                    	<div class = "modal-body">
+							<h4><u> Chair:</u> Rishabh Porel </h4>
+							<h4><u> Co-Chair:</u> Premal Varia </h4>
+							<a href="documents/DISEC.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    		The Disarmament and International Security Council also referred to as the First Committee of the General Assembly of the United Nations, deals with challenges and threats to world peace, advancing the security of the international community.
+							It considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations; the general principles of cooperation in the maintenance of international peace and security, as well as principles governing disarmament and the regulation of armaments; promotion of cooperative arrangements and measures aimed at strengthening stability through lower levels of armaments.
+							The First Committee sessions are structured into three distinctive stages:
+							<ol>
+							<li>General debate</li>
+							<li>Thematic discussions</li>
+							<li>Action on drafts</li>
+							</ol>
+							<h4>Agenda 1: Defining policies related to stockpiling bio-chemical weapons</h4>
+							The danger posed by Biological Weapons (BW) and Chemical Weapons (CW) still lingers two decades after the cold war’s end. Despite the reduction of threats as an increasing number of states fulfill their commitments under international conventions, a small number of states still maintain declared and undeclared stockpiles and even active BW and CW programs. A bio-technology revolution is making bio-technology more readily available and presents a potential future proliferation risk. Dual-use chemical processes also present a series of ongoing challenges. Progress has certainly been made by Chemical Weapons Convention (CWC) state-parties and the Organization for the Prohibition of Chemical Weapons (OPCW) in the destruction of declared CW stockpiles. However, progress on the implementation of the Biological Weapons Convention (BWC) has been slower due to the lack of a formal verification mechanism.
+							<br>
+							<h4>Agenda 2: Discussing the role of PMSCs in the privatisation of war.</h4>
+							PMSCs are private business companies that provide military and/or security services, irrespective of how they describe themselves. Military and security services include, in particular, the provision of armed guards and the protection of persons and objects, such as convoys, buildings and other places; maintenance and operation of weapons systems; prisoner detention; and advice to, or training of, local forces and security 
+
+                    	</div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="hrc-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "hrc-modal"> Human Rights Council</h4>
+                    	</div>
+                    	<div class = "modal-body">
+							<h4><u> Chair:</u> Aishwarya Patil </h4>
+							<h4><u> Co-Chair:</u> Prerna Dugar </h4>
+							<a href="documents/HRC.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    		<h4> Agenda 1: Children in armed conflict </h4>
+							Today any state crisis is not just limited to the loss of infrastructure, combatants and mere civilians. The changing nature of these conflicts has lead to children finding their safe havens in frontline, holding a gun. Thus,Children in armed conflict is a grave concern for humanitarians as it has multiple psychological and physical impacts that scars their future hideously. In light of all the events that happened in the past and could happen, the human rights council aims to reduce the repercussion on children. After all they are CHILDREN, NOT SOLDIERS
+							<br>
+							<h4> Agenda 2: Violation of Humanitarian rights in Middle Eastern Countries post the Syrian crisis </h4>
+							Post the civil war crisis in Syria, Many ordinary Syrian people have been been forced to leave their homes to escape to safety in other countries.Every day refugees stream across the borders of Syria into the neighbouring nations .More than 3 million people have fled Syria since the start of the conflict, most of them women and children. It is one of the largest refugee movements in recent history.A further 6.5 million people, 50% of them children, have had to leave their homes within Syria.They are in desperate need of help. UNHRC recognises this post war crisis and urges member nations to come together and battle this humanitarian crisis together. At the end of the day , only humans can help humans.
+                    	</div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="unodc-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "reso-modal"> United Nations Office on Drugs and Crime</h4>
+                    	</div>
+                    	<div class = "modal-body">
+							<h4><u> Chair:</u> Ayesha Qazi </h4>
+							<h4><u> Co-Chair:</u> Shlok Rathod </h4>
+							<a href="documents/UNODC.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    		<h4> Agenda 1: Maritime crime and Piracy </h4>
+							
+								When you think of a Pirate you think of Captain Jack Sparrow or Captain Hook, however modern day pirates are sightly different from what we see in films, though their agendas are similar in nature.
+								And so, Maritime crime and piracy in the 21st century includes the criminal activity directed at vessels or maritime structures and the use of the high seas to perpetrate transnational organized crimes such as smuggling of persons or illicit substances.
+								Maritime crimes such as piracy or drug smuggling can have devastating human consequences as over 90% of global trade is carried out by sea, the economic effects of maritime crime can be crippling..
+							    The Gulf of Aden, The Indian Ocean and The Somalian Basin are known for their notorious piracy that has been on a rise in recent years. 
+								Thus, due to the unique nature of the high seas - falling outside the jurisdiction of any single state, but within the collective responsibility of all - a coordinated and comprehensive approach must be taken to tackle crimes both occurring at sea and being carried out through use of the maritime domain.  This includes interrupting criminal activities at sea, strengthening domestic maritime law-enforcement capacity, and addressing the root causes of maritime crime on land.
+								<br>
+							<h4> Agenda 2: 	Narco-Terrorism </h4>
+								Narco-terrorism is the activity of terrorist organizations that engage in drug trafficking activity to fund their operations and gain recruits and expertise or the attempts of narcotics traffickers to influence the policies of a government or a society through violence and intimidation, and to hinder the enforcement of anti-drug laws by the systematic threat or use of such violence. A very common and widely known example would be that of Pablo Escobar’s, who led the Medellin drug cartel, violence in his dealings with the Colombian government that included a series of assassinations, hijackings and bombings. In today's world organizations like Colombian FARC who was the main catalyst behind Colombia’s 34%nationwide increase in cases of massacres with around 2,500 civilian kidnappings in July 2005 during its four decade reign of terror, and the Taliban in Afghanistan, among others, are considered to use narcotic and illicit drugs trafficking as a way to finance their actions.
+
+                    	</div>
+                </div>
+            </div>
+        </div>
+
+<div class="modal fade" id="who-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "who-modal"> World Health Organization</h4>
+                    	</div>
+                    	<div class = "modal-body">
+                    		<h4><u> Chair:</u> Rajaram Ramesh </h4>
+							<h4><u> Co-Chair:</u> Shlok Shah </h4>
+							<a href="documents/WHO.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+							Welcome to the World Health Organization at Podar Model United Nations 2015! 
+							You are all part of one of the specialized agencies of the Economic and Social Council of the United Nations known as the World Health Organization (WHO) which deals with the International Public Health in order to ensure the basic necessities of life and a healthy standard of living is delivered to the entire world.  
+							At PMUN 2015, the committee will be discussing the following topics:
+
+                    		<h4> Agenda 1: 1.	Establishing and Implementing an International Framework for Disease Prevention and Aid Supply: </h4>
+							
+								<p>During times of a natural calamity or a humanitarian crisis, the international society can join hands together with considerable strength, but still there is no specific framework to adequately fund the everyday projects dealing with sudden disease outbreaks that aren’t in the media spotlight. There is an urgent need for a streamlined process to deliver aid and international attention. </p>
+<p>
+Therefore, the WHO seeks to establish a strong framework that will adequately deal with the question of national sovereignty while effectively bringing in the required aid to help combat the easily preventable diseases at the earliest possible in the current developing nations. 
+</p>
+
+
+								<br>
+							<h4> Agenda 2: Conducting risk assessments before major sporting events </h4>
+								<p>Public health is an important factor when planning a mass gathering such as major sport events (for e.g., the Olympic Games and the FIFA World Cup). </p>
+<p>Water bodies for the upcoming Rio 2016 Olympics boating and swimming have been found to be contaminated with human feces. The tests conducted reveal dangerous levels of viruses and bacteria being present in the waters. If a disease breaks out, the effects can be massive and widespread as there are going to be a huge number of spectators.</p>
+<p>In 2012, five members from the Australian and Canadian Badminton teams were infected with food poisoning in London. Tests revealed the virus Norovirus was present in their food. Though the three Australian members recovered, the remaining Canadian members were forced to miss a warm-up match.</p>
+
+
+                    	</div>
+                </div>
+            </div>
+        </div>
+<div class="modal fade" id="iyp-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "iyp-modal"> Indian Youth Parliament</h4>
+                    	</div>
+                    	<div class = "modal-body">
+						<h4><u> Chair:</u> Hrishikesh Giridhar </h4>
+						<h4><u> Co-Chair:</u> Manasvini Suresh </h4>
+						<a href="documents/IYP.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    	This committee is a recreation of the Lok Sabha house of the Indian parliament. 
+						The Lok Sabha is the lower house of the Bicameral Indian parliamentary system, however has the most power when it comes to legislative decisions. 
+						We endeavour to emulate the proceedings of the Lok Sabha as accurately as possible, therefore, get ready for two days of intense debate involving yelling, shaking of fists, chair throwing, sleeping in the house and chewing of paan. 
+						<br>
+						<h4> Agenda 1: AFSPA </h4>
+						The Armed Forces (Special Powers) Act. This act grants 'special powers' to Indian armed forces, in what they term as 'disturbed areas'. AFSPA is invoked when a particular area goes out of control threatening security concerns of the common man and the state. The act allows officials to use any means necessary to control a situation, even if it means resorting to extreme force. An army official can fire upon you with mere suspicion. AFSPA has been criticized as being a tool of state abuse, oppression and discrimination and is said to encroach on basic fundamental rights. However, withdrawal of this act can give rise to terrorist activities and lead to an increase in the amount of conflict in that area. 
+						<br>
+						<h4> Agenda 2: Reservation </h4>
+						Reservations refer to the privileges enjoyed by underrepresented groups in the Indian society such as women, scheduled casts and tribes and other backward classes. While this strives to provide equal opportunities to all members of the society, it is argued that it provides an unfair advantage to under qualified applicants. The fact that 50% of educational and job seats are reserved for these underrepresented groups implies that better qualified individuals are denied opportunities, which can affect the country as a whole in the long run. 
+
+
+                    	</div>
+                </div>
+            </div>
+        </div> 
+		
+<div class="modal fade" id="g20-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "g20-modal"> Group of 20</h4>
+                    	</div>
+                    	<div class = "modal-body">
+							<h4><u> Chair:</u> Anay Dasani </h4>
+							<h4><u> Co-Chair:</u> Amritya Saini </h4>
+							<a href="documents/gtwenty.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    		<h4>Agenda 1: Strengthening the Global Recovery and Lifting the Potential</h4>
+							Despite the extraordinary measures taken globally, the recovery after the
+							Great Recession is not as healthy as desired. Growth is sluggish and
+							fragile, unemployment remains high and inequalities are on the rise.
+							Lower confidence levels hinder consumption and investment. Therefore, in
+							2015, discussions on the necessary policies to raise the pace of global
+							growth will be conducted. These discussions will have a particular focus on
+							macroeconomic policy cooperation among the G20 countries.
+							In addition to that, we will strive to lift the growth potential of our
+							economies. Our major instruments to this end will be boosting the
+							investments, especially closing the infrastructure investment gaps,
+							increasing employment and promoting trade, along with the appropriate
+							macroeconomic policy mix. With that, the focus will be on the
+							implementation of the policies set out in our ambitious growth strategies.
+							<br>
+							<h4> Agenda 2: Buttressing Sustainability </h4>						
+							To buttress sustainability in the global economy as well as the environment, we will be focusing on
+							the issues of development, energy, energy sustainability and climate change finance. Our
+							central focus will be lifting prosperity across the globe, with a particular
+							focus on supporting efforts to eradicate poverty and ensure sustainable
+							development (in relation to the masses but more importantly the environment) in LEDC’s.
+                    	</div>
+                </div>
+            </div>
+        </div>  
+<!-- WHO Modal -->		
+<div class="modal fade" id="jac-modal" tabindex="-1" role="document">
+            <div class="modal-dialog ">
+            	<div class="modal-content"> 
+                	<div class="close-modal" data-dismiss="modal">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                	</div>
+                    	<div class="modal-header">
+                    		<h4 class="modal-title" id = "jac-modal"> Joint Action Committee</h4>
+                    	</div>
+                    	<div class = "modal-body">
+						<h4><u> Chair:</u> Abhijoy Nandi </h4>
+						<h4><u> Co-Chair:</u> Surjo Dutta </h4>
+						<a href="documents/JAC.pdf" target="_blank"> <h4>Study Guide</h4> </a>
+                    	 The Joint Action Committee (JAC) is the most unique committee this year and a new signature feature of Podar MUN, 2015. It is the most dynamic committee embroiled in perpetual conflict; wherein every  decision made by you delegates will have an immediate and effective role on the ongoing course of the committee.
+						 <br>
+						 <h4> Agenda 1: IC-814 Hijack </h4>
+						 24th December 1999 - Indian Airlines flight IC-814, en route from Kathmandu to New Delhi has been hijacked. Taliban claims responsibility and asks for the release of three militants, Maulana Masood Azhar, Ahmed Omar Saeed Sheikh and Mushtaq Ahmed Zargar in exchange of the passengers on board. Delegates, you will represent high ranking officials from all parties involved and will race against time to come up with a viable solution keeping human rights, law and international relations in mind. 
+						<br>
+						<h4> Agenda 2: Indo-Pak War 1971 </h4>
+						The country is in a state of war. Recent election results in Pakistan where the East Pakistani Awami League has won 167 of 169 seats in East Pakistan and secured a simple majority has caused massive unrest either side of the border.  Awami League leader Sheikh Mujibur Rehman has presented the Six Points to the President of Pakistan and claimed the right to form the government. But the leader of the Pakistan Peoples Party, Zulfikar Ali Bhutto, refuses to yield the premiership of Pakistan to Mujibur causing the President, Yahya Khan to call the military, dominated by West Pakistanis, to suppress dissent in East Pakistan.
+						<br>
+						3 December, 1971 :  Pakistan launched pre-emptive air strikes on 11 Indian airbases  causing India to retaliate. Gathered at the time of this war and chaos, the powerful and respected leaders of this committee must strive to find common ground and bring peace to this perilous sub-continent.
+	 
+	
+                    	</div>
+                </div>
+            </div>
+        </div>      
+<!--Modal code ends -->
+<script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+<script src= '/web-files/scripts/bootstrap.js'></script>
+</body>
+</html>
+<!-- Committee Page HTML ends -->
+<!-- CSS - Committee Page -->
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/com.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+.row > div > .unsc{
+	background: rgb(255,165,0);
+	background: rgba(255,165,0,1);
+	bottom: 1px;
+	font-size: 20px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+	
+}
+
+.row > div > .disec{
+	background: rgb(114,95,199);
+	background: rgba(114,95,199,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+
+
+}
+.row > div > .hrc {
+	background: rgb(63,230,148);
+	background:rgba(63,230,148,1);
+	font-size: 20px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+}
+
+.row > div > .unodc{
+	background: rgb(0,154,205);
+	background: rgba(0,154,205,1);
+	bottom: 1px;
+	margin-top: 25px;
+	font-size: 20px;
+	height: 80px;
+	padding: 10px;
+	
+}
+
+.row > div > .g20{
+	background: rgb(255,215,0);
+	background: rgba(255,215,0,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+
+
+}
+
+.row > div > .iyp{
+	background: rgb(175,47,87);
+	background: rgba(175,47,87,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+
+
+}
+.row > div > .jac{
+	background: rgb(0,0,204);
+	background: rgba(0,0,204,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+
+
+}
+.row > div > .who{
+	background: rgb(255, 79, 43);
+	background: rgba(255, 79, 43,1);
+	bottom: 1px;
+	font-size: 20px;
+	top: 5px;
+	margin-top: 25px;
+	height: 80px;
+	padding: 10px;
+
+
+}
+.glyphicon {
+	color: darkgrey;
+	font-size: 25px;
+	float: right;
+}
+<!-- CSS - Committee Page -->
+<!-- HTML - Delegate Page -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PMUN | Delegate</title>
+    <link rel = 'stylesheet' href="/web-files/Styles/bootstrap.min.css"/>
+	<link rel = 'stylesheet' href="/web-files/Styles/registration.css">
+  </head>
+  <body>
+<?php
+$delegate = new mysqli("localhost", "root", "root", "pmun") or die("failed to connect to server !!");
+mysqli_select_db($delegate,"pmun");
+	if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+		$grade = $_POST['grade'];
+		$experience = intval($_POST['experience']);
+		$compref1 = $_POST['compref1'];
+		$compref2 = $_POST['compref2'];
+		$conpref1 = $_POST['conpref1'];
+		$conpref2 = $_POST['conpref2']; 
+		$bestdel = intval($_POST['bestdel']);
+		$spm = intval($_POST['spm']);
+		$verbal = intval($_POST['verbal']);
+		$errName = "";
+		$errCompref = "";
+		$errConpref = "";
+		$errAward = '';
+		$errMat = '';
+		$errMat2 = '';
+		$sum = intval($bestdel+$verbal+$spm);
+		// Index number to sort delegates based on expertise
+		$exp_num = 10+((($experience)+(3)*($bestdel))+((2)*($spm))+(($verbal)));
+		$del_matrix = array("France", "United Kingdom", "Russia", "USA", "China", "Saudi Arabia", "Iraq", "Yemen",
+			"Syria", "Iran", "Spain", "Germany", "Japan", "Brazil", "Chile", "Egypt", "Ethiopia", "India", "Indonesia", "Montenegro", 
+			"Pakistan", "Qatar", "North Korea", "Lebanon", "Turkey", "UAE", "Venezuela", "Colombia", "Mali", "Argentina", "Ivory Coast",
+			"Nigeria", "Sudan", "South Sudan", "Chad", "Central African Republic", "Somalia", "Israel", "Myannmar", "Australia",
+			"Singapore", "Italy", "Malaysia", "Mexico", "Phillipines", "South Africa", "Sri Lanka", "Thailand", "INTERPOL",
+			"Afghanistan", "Libya", "Sierra Leone", "Albania", "PMoI", "MoDI","R&AW", "ATSI", "MoE", "IB", "IC", "Nepal", "MoCA", "MoHA",
+			"PMoP", "MoDP", "Pervez-Musharraf", "MoFA", "ATSP", "ISI", "South Korea", "MoD-UAE", "MoFA-UAE", "AC", "NC", "AFC", "MoD-USSR", "MoFA-USSR", "MoIA", "AL", "MB",
+			"MoD-USA", "Nixon", "Kissinger", "MoFAR-USA", "MoD-China", "MoEA-China","EU", "Jordan","Maharashtra", "Delhi", 
+			"J&K", "Tamil Nadu", "Arunachal Pradesh", "Assam", "Meghalaya", "Manipur", "Mizoram", "Nagaland", "Tripura", "Karnatka","Gujarat",
+			"Kerala", "Goa", "Andhra Pradesh", "Bihar", "Jharkand", "Himachal Pradesh", "Punjab", "Rajasthan", "Uttar Pradesh", "Chandigarh", "Madhya Pradesh");
+		if ($sum > $experience) {
+			$errAward = "Your awards are greater than your MUNs";
+		}
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+		if (in_array($conpref1, $del_matrix)== 0) {
+			$errMat = 'Please refer to the delegation matrix and enter correct name.';
+		}
+		if (in_array($conpref2, $del_matrix) == 0) {
+		
+			$errMat2 = 'Please refer to the delegation matrix and enter correct name.';
+		}
+		if ($compref1 == $compref2) {
+			$errCompref = 'Please select distinct committees';
+		}
+		
+		// Check if first country has been entered
+		if (!$_POST['conpref1']) {
+			$errConpref = 'Please enter delegation';
+		}
+		
+		//Check if second country has been entered
+		if (!$_POST['conpref2']) {
+			$errConpref = 'Please enter delegation';
+		}
+		
+if (!$errName && !$errConpref && !$errAward && !$errMat && !$errMat2) {
+		$result='<div class="alert alert-success">Thank You! Please check your entry on the allocations page.</div>';
+		$del = "INSERT INTO delegates (Name, Grade, Experience, Committee1, Committee2, Country1, Country2, Best_Del, Spec_Men, Ver_Men, XP_Num)
+				VALUES ('$name', '$grade', '$experience', '$compref1', '$compref2', '$conpref1', '$conpref2', '$bestdel','$spm','$verbal','$exp_num')";
+		$_POST = array();
+		mysqli_query($delegate,$del) or die(mysqli_error($delegate));
+	} else {
+		$result='<div class="alert alert-danger">Sorry, there was an error sending your application. Please try again later.</div>';
+	}
+}
+
+mysqli_close($delegate);	
+?>
+<div class = "jumbotron">
+	<h1 style="text-align:center"> Registration </h1>
+</div>
+
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			<li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="page-header text-center">Delegate Registration</h1>
+				 <h4 class = "guidelines"> 
+					 <ul>
+						 <li> Truthfully complete this form, if your "awards" don't match your level of participation, the chair may not consider you for awards. </li>
+						 <li> Refer to the delegation matrix for correctly inputting delegation preferences. Wrong entries will prevent the form from submitting. </li>
+					</ul>
+				 </h4>
+				 <br>
+				<form class="form-horizontal" role="form" method="post" action="delegate.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" pattern="[A-Za-z]"value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="grade" class="col-sm-2 control-label">Grade:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = "grade">
+								<option value = "IBDP-1"> IBDP-1 </option>
+								<option value="IBDP-2">IBDP-2</option>
+  								<option value="AS-Commerce">AS-Commerce</option>
+  								<option value="AS-Science">AS-Science</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="mun" class="col-sm-2 control-label">Experience:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = "experience">
+								<option value="0">0</option>
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+  								<option value="6">6</option>
+  								<option value="7">7</option>
+  								<option value="8">8</option>
+  								<option value="9">9</option>
+  								<option value="10">10</option>
+  								<option value="11">11</option>
+  								<option value="12">12</option>
+  								<option value="13">13</option>
+  								<option value="14">14</option>
+  								<option value="15">15</option>
+  								<option value="16">16</option>
+  								<option value="17">17</option>
+  								<option value="18">18</option>
+  								<option value="19">19</option>
+  								<option value="20">20</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="compref1" class="col-sm-2 control-label">1st Committee Preference:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'compref1'>
+  								<option value="UNSC">UNSC</option>
+  								<option value="DISEC">DISEC</option>
+  								<option value="G20">G20</option>
+  								<option value="HRC">HRC</option>
+  								<option value="WHO">WHO</option>
+  								<option value="IYP">IYP</option>
+								<option value="JAC">JAC</option>
+								<option value="UNODC">UNODC</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="compref2" class="col-sm-2 control-label">2nd Committee Preference:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'compref2'>
+  								<option value="DISEC">DISEC</option>
+  								<option value="UNSC">UNSC</option>
+  								<option value="G20">G20</option>
+  								<option value="HRC">HRC</option>
+  								<option value="WHO">WHO</option>
+  								<option value="IYP">IYP</option>
+								<option value="JAC">JAC</option>
+								<option value="UNODC">UNODC</option>
+							</select>
+						</div>
+						<?php echo "<p class='text-danger'>$errCompref</p>";?>
+					</div>
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">First Delegation Preference:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="conpref1" name="conpref1" placeholder="First delegation preference" value="<?php echo htmlspecialchars($_POST['conpref1']); ?>">
+							<?php echo "<p class='text-danger'>$errConpref</p>";?>
+							<?php echo "<p class='text-danger'>$errMat</p>";?>
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Second Delegation Preference:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="conpref2" name="conpref2" placeholder="Second delegation preference" value="<?php echo htmlspecialchars($_POST['conpref2']); ?>">
+							<?php echo "<p class='text-danger'>$errConpref</p>";?>
+							<?php echo "<p class='text-danger'>$errMat2</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="bestdel" class="col-sm-2 control-label">Best Delegate:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'bestdel'>
+  								<option value="0">0</option>
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="spm" class="col-sm-2 control-label">Special Mention:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'spm'>
+  								<option value="0">0</option>
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="spm" class="col-sm-2 control-label">Verbal Mention</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'verbal'>
+  								<option value="0">0</option>
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</div>
+						<?php echo "<p class='text-danger'>$errAward</p>";?>
+					</div>
+					<br><div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
+							<br><h4>Repeated submissions will result in disqualification from awards.</h4>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div>   
+    <script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+	<script src= '/web-files/scripts/bootstrap.js'></script>
+  </body>
+</html>
+<!-- HTML - Delegate Page -->
+<!-- HTML - EB Page -->
+
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EB registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href="/web-files/Styles/registration.css">
+  </head>
+  <body>
+<?php
+$eb = new mysqli("localhost", "root", "root", "pmun") or die("failed to connect to server !!");
+mysqli_select_db($eb,"pmun");
+	if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+		$experience = intval($_POST['experience']);
+		$compref1 = $_POST['compref1'];
+		$compref2 = $_POST['compref2'];
+		$post1 = $_POST['post1'];
+		$post2 = $_POST['post2']; 
+		$buzzword = $_POST['buzzword'];
+		$errName = NULL;
+		$errCompref = NULL;
+		$errBuzzword = NULL;
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+		// Check if committee preferences are distinct
+		if ($compref1 == $compref2) {
+			$errCompref = 'Please select distinct committees';
+		}
+		
+		//Check if buzzword has been entered
+		if (!$_POST['buzzword']) {
+			$errBuzzword = 'Please enter buzzword';
+		}
+		//Check if buzzword is correct
+		if ($_POST['buzzword'] !== 'somebuzzword') {
+			$errBuzzword = 'Buzzword incorrect';
+		}
+// If there are no errors, send the email
+if (!$errName && !$errCompref && !$errBuzzword) {
+		$result='<div class="alert alert-success">Thank You! Please check the allocations page.</div>';
+		$Eb = "INSERT INTO eb (Name, Experience, Committee1, Committee2, Post1, Post2)
+				VALUES ('$name', '$experience', '$compref1', '$compref2', '$post1', '$post2')";
+		$_POST = array();
+		mysqli_query($eb,$Eb) or die(mysqli_error($eb));
+		}
+	}
+
+mysqli_close($eb);	
+?>
+<div class = "jumbotron">
+	<h1 style="text-align:center"> Registration </h1>
+</div>
+
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			<li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="page-header text-center">EB Registration</h1>
+				<form name = "eb" class="form-horizontal" role="form" method="post" action="eb.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="mun" class="col-sm-2 control-label">Experience</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = "experience">
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+  								<option value="4">4</option>
+  								<option value="5">5</option>
+  								<option value="6">6</option>
+  								<option value="7">7</option>
+  								<option value="8">8</option>
+  								<option value="9">9</option>
+  								<option value="10">10</option>
+  								<option value="11">11</option>
+  								<option value="12">12</option>
+  								<option value="13">13</option>
+  								<option value="14">14</option>
+  								<option value="15">15</option>
+  								<option value="16">16</option>
+  								<option value="17">17</option>
+  								<option value="18">18</option>
+  								<option value="19">19</option>
+  								<option value="20">20</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="compref1" class="col-sm-2 control-label">1st Committee Preference</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'compref1'>
+  								<option value="UNSC">UNSC</option>
+  								<option value="DISEC">DISEC</option>
+  								<option value="G20">G20</option>
+  								<option value="HRC">HRC</option>
+  								<option value="WHO">WHO</option>
+  								<option value="IYP">IYP</option>
+								<option value="JAC">JAC</option>
+								<option value="UNODC">UNODC</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="compref2" class="col-sm-2 control-label">2nd Committee Preference</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = 'compref2'>
+  								<option value="UNSC">UNSC</option>
+  								<option value="DISEC">DISEC</option>
+  								<option value="G20">G20</option>
+  								<option value="HRC">HRC</option>
+  								<option value="WHO">WHO</option>
+  								<option value="IYP">IYP</option>
+								<option value="JAC">JAC</option>
+								<option value="UNODC">UNODC</option>
+							</select>
+							<?php echo "<p class='text-danger'>$errCompref</p>";?>
+						</div>
+					</div>
+					<div class = "form-group">
+						<label for = "compref1-post" class = "control-label col-sm-2"> Post in Committee 1:</label>
+						<div class = "col-sm-10">
+							<select class="form-control" name = 'post1'>
+  								<option>Chair</option>
+  								<option>Co-chair</option>
+  								<option>Moderator</option>
+							</select>
+						</div>
+					</div>
+					<div class = "form-group">
+						<label for = "compref2-post" class = "control-label col-sm-2"> Post in Committee 2:</label>
+						<div class = "col-sm-10">
+							<select class="form-control" name = 'post2'>
+  								<option>Chair</option>
+  								<option>Co-Chair</option>
+  								<option>Moderator</option>
+							</select>
+						</div>
+					</div>
+					<div class = "form-group">
+						<label for = "buzzword" class = "control-label col-sm-2"> Buzzword:</label>
+						<div class = "col-sm-10">
+							<input type = "password" class="form-control" name="buzzword" id="buzzword" placeholder = "Prevents IB1 Applications" value="<?php echo htmlspecialchars($_POST['buzzword']); ?>">
+							<?php echo "<p class='text-danger'>$errBuzzword</p>";?>
+					<br><div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+							<br><h4>Repeated submissions will result in disqualification from EB applications</h4>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div>   
+   <script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+   <script src= '/web-files/scripts/bootstrap.js'></script>
+  </body>
+</html>
+<!-- HTML - EB Page -->
+<!-- HTML - Press Page -->
+
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PMUN | Press</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href="/web-files/Styles/registration.css">
+  </head>
+  <body>
+<?php
+$press = new mysqli("localhost", "root", "root", "pmun") or die("failed to connect to server !!");
+mysqli_select_db($press,"pmun");
+	if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+		$grade = $_POST['grade'];
+		$experience = $_POST['experience'];
+		$essay = $_POST['essay'];
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+		
+// If there are no errors, send the email
+if (!$errName && !$errExperience && !$errEssay) {
+		$result='<div class="alert alert-success">Thank You! Application Submitted</div>';
+		$sPress = "INSERT INTO press (Name, Grade, Experience, Essay)
+				VALUES ('$name', '$grade', '$experience',  '$essay')";
+		$_POST = array();
+		mysqli_query($press,$sPress) or die(mysqli_error($press));
+	} else {
+		$result='<div class="alert alert-danger">Sorry, there was an error sending your application. Please try again later.</div>';
+	}
+}
+mysqli_close($press);		
+?>
+<div class = "jumbotron">
+	<h1 style="text-align:center"> Registration </h1>
+</div>
+
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			<li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+
+<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="page-header text-center">Press Registration</h1>
+				<form class="form-horizontal" role="form" method="post" action="press.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="grade" class="col-sm-2 control-label">Grade:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = "grade">
+								<option value="IBDP-2">IBDP-2</option>
+  								<option value="AS-Commerce">AS-Commerce</option>
+  								<option value="AS-Science">AS-Science</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="experience" class="col-sm-4 control-label">Press Experience at previous MUNs:</label>
+						<div class="col-sm-8">
+							<textarea type = "text" rows = "4" cols = "50">
+                            </textarea>
+                            <?php echo "<p class='text-danger'>$errExperience</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="essay" class="col-sm-4 control-label">Essay: 200-250 words(Delete the pre-entered text after reading it)</label>
+						<div class="col-sm-8">
+							<textarea type = "text" rows = "4" cols = "50">  
+								You wake up to find that the country is suddenly at peace with all of the bans and discriminatory laws that have been fought against for years. 
+                               	Explain how you'd make peace with it or revolt against it in 200-250 words.
+                            </textarea>
+                            <?php echo "<p class='text-danger'>$errEssay</p>";?>
+						</div>
+					</div>
+					<br><div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div>   
+      <script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+   	  <script src= '/web-files/scripts/bootstrap.js'></script>
+  </body>
+</html>
+<!-- HTML - Press Page -->
+<!-- HTML - Logistics Page -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> PMUN | Logistics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href="/web-files/Styles/registration.css">
+  </head>
+  <body>
+<?php
+$logi = new mysqli("localhost", "root", "root", "pmun") or die("failed to connect to server !!");
+mysqli_select_db($logi,"pmun");
+  if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+		$grade = intval($_POST['grade']);
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+if (!$errName) {
+		$result='<div class="alert alert-success">Thank You! Please check the allocations page.</div>';
+		$sLogi = "INSERT INTO logi (Name, Grade)
+				VALUES ('$name', '$grade')";
+		$_POST = array();
+		mysqli_query($logi,$sLogi) or die(mysqli_error($sLogi));
+		}
+	}
+
+mysqli_close($logi);	
+?>
+<div class = "jumbotron">
+	<h1 style="text-align:center"> Registration </h1>
+</div>
+
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+        <li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="page-header text-center">Logistics Registration</h1>
+				<form name = "eb" class="form-horizontal" role="form" method="post" action="logistics.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+                    <div class="form-group">
+						<label for="grade" class="col-sm-2 control-label">Grade:</label>
+						<div class="col-sm-10">
+							<select class="form-control" name = "grade">
+								<option value="IBDP-2">IBDP-2</option>
+  								<option value="AS-Commerce">AS-Commerce</option>
+  								<option value="AS-Science">AS-Science</option>
+							</select>
+						</div>
+					</div>
+                    <br><div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+                  </form>
+                 </div>
+                </div>
+             <div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!-- HTML - Logistics Page -->
+<!-- CSS - forms -->
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/registration.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.register {
+	cursor: pointer;
+}
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+.row {
+	background: rgb(255,180,0);
+	background: rgba(255,180,0, 0.7);
+	color: #fff;
+}
+textarea {
+	color: #000;
+}
+<!-- CSS - forms -->
+<!-- HTML - Allocation Page -->
+<!-- COPYRIGHT - Aayush Chadha, Prepare for IBDP Computer Science Internal Assessment, May 2016 -->
+<?php
+  $hostname = 'localhost';
+  $username = 'root';
+  $password = 'root';
+  $dbname = 'pmun';
+
+  try {
+    $dbh = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
+    // The results of the queries for each table are stored in the table's name. Not all fields are fetched from the database.'
+    // The queries also order the fetched data in descending order of experience, making it easier to see who are the best candidates.
+    $delegate = $dbh->prepare("SELECT sNum, Name, Grade, Committee1, Committee2, Country1, Country2, XP_Num FROM delegates");
+    $eb = $dbh->prepare("SELECT sNum, Name, Experience, Committee1, Committee2, Post1, Post2 FROM eb");
+    $press = $dbh->prepare("SELECT sNum, Name, Grade FROM press");
+    $logistics = $dbh->prepare("SELECT sNum, Name, Grade FROM logi");
+    $unsc = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'UNSC' ORDER BY XP_NUM DESC");
+    $disec = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'DISEC' ORDER BY XP_NUM DESC");
+    $unhrc = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'HRC' ORDER BY XP_NUM DESC");
+    $unodc = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'UN0DC' ORDER BY XP_NUM DESC");
+    $jac = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'JAC' ORDER BY XP_NUM DESC");
+    $iyp = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'IYP' ORDER BY XP_NUM DESC");
+    $g20 = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'G20' ORDER BY XP_NUM DESC");
+    $who = $dbh->prepare("SELECT Name, Grade, Country1, Country2, XP_Num from delegates WHERE Committee1 = 'WHO' ORDER BY XP_NUM DESC");
+    
+    // The loops below fetch records to store in the variable as and when the query is executed, i.e, when the page is refreshed
+    if($unsc->execute()) {
+       $unsc->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($disec->execute()) {
+       $disec->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($unhrc->execute()) {
+       $unhrc->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($unodc->execute()) {
+       $unodc->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($jac->execute()) {
+       $jac->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($iyp->execute()) {
+       $iyp->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($g20->execute()) {
+       $g20->setFetchMode(PDO::FETCH_ASSOC);
+    }
+     if($who->execute()) {
+       $who->setFetchMode(PDO::FETCH_ASSOC);
+    }
+    if($delegate->execute()) {
+       $delegate->setFetchMode(PDO::FETCH_ASSOC);
+    }
+  	if($eb->execute()) {
+       $eb->setFetchMode(PDO::FETCH_ASSOC);
+    }
+    if($press->execute()) {
+       $press->setFetchMode(PDO::FETCH_ASSOC);
+    }
+    if($logistics->execute()){
+      $logistics->setFetchMode(PDO::FETCH_ASSOC);
+    }
+  }
+  catch(Exception $error) {
+      echo '<p>', $error->getMessage(), '</p>';
+  }
+  $dbh = null;
+?>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> PMUN | Allocations</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = 'stylesheet' href="/web-files/Styles/bootstrap.min.css"/>
+<link rel = 'stylesheet' href="/web-files/Styles/allocation.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+ <div class = "jumbotron">
+	<h1> Allocations </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+         <li><a href="press.html">Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+
+<!-- Header End -->
+<div class="container">
+	<div class = "row">
+		<div class = "col-md-12">
+  			
+        <ul> 
+          <h1><u>Guidelines</u></h1>
+          <li> Find your names in the lists below. Check the main delegate list and the list of your first choice committee. You will be allocated a committee and delegation once all applications are received. </li>
+          <li> Incase your name hasn't appeared in the correct list, refresh first. If it doesn't work, write to <a href = contact.php> podarmun2015@gmail.com </a>, stating the form filled and the values entered.</li>
+          <li> Experience Number is for the chair's reference. </li>  
+          <li> You may or may not be allocated the committee and delegation of your choice. </li>
+  			</ul> 
+        
+         <!-- DELEGATES table: The code below features two parts, one provides the structure and design of the table, making use of HTML and CSS.
+         This is static content and remains same throughout. The code following the <tbody> tag utilises a while loop which runs as long as 
+           there are records in the table. Each column in the database appears as it is on the allocations page through the use of echo $row. 
+           The name used between the square brackets is the name of the column in the sql database. The same structure was used for the other tables as well. -->
+        <h2><u>Delegate List</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+              <th> S. No. </th>
+        			<th>Name</th>
+              <th>Grade</th>
+        			<th>Committee Preference - 1</th>
+					<th>Committee Preference - 2</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $delegate->fetch()) { ?>
+				 <tr>
+               <td><?php echo $row['sNum']; ?></td>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+        			 <td><?php echo $row['Committee1']; ?></td>
+        			 <td><?php echo $row['Committee2']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>1.<u>UNSC</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th> Grade </th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $unsc->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>2.<u>DISEC</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $disec->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>3.<u>UNHRC</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $unhrc->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>4.<u>UNODC</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $unodc->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>5.<u>JAC</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $jac->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>6.<u>IYP</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $iyp->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>7.<u>G20</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $g20->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <h2>8.<u>WHO</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Name</th>
+              <th>Grade</th>
+					<th>Delegation Preference - 1</th>
+					<th>Delegation Preference - 2</th>
+          <th>Experience Number</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $who->fetch()) { ?>
+				 <tr>
+					     <td><?php echo $row['Name']; ?></td>
+               <td><?php echo $row['Grade']; ?></td>
+					     <td><?php echo $row['Country1']; ?></td>
+        			 <td><?php echo $row['Country2']; ?></td>
+               <td><?php echo $row['XP_Num']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       
+        <!-- CHAIR -->
+       <h2><u>Executive Board List</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+              <th> Serial Number </th>
+        			<th>Name</th>
+        			<th>Experience</th>
+					<th>Committee Preference - 1</th>
+					<th>Committee Preference - 2</th>
+					<th>Post Applied for - 1</th>
+          <th>Post Applied for - 2</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $eb->fetch()) { ?>
+				 <tr>
+           <td><?php echo $row['sNum']; ?></td>
+					 <td><?php echo $row['Name']; ?></td>
+        			 <td><?php echo $row['Experience']; ?></td>
+        			 <td><?php echo $row['Committee1']; ?></td>
+					     <td><?php echo $row['Committee2']; ?></td>
+        			 <td><?php echo $row['Post1']; ?></td>
+               <td><?php echo $row['Post2']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+        <!-- PRESS -->
+       <h2><u>Press Corps</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+              <th> Serial Number </th>
+        			<th>Name</th>
+        			<th>Grade</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $press->fetch()) { ?>
+				 <tr>
+           <td><?php echo $row['sNum']; ?></td>
+					 <td><?php echo $row['Name']; ?></td>
+        	 <td><?php echo $row['Grade']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+       
+       <!-- LOGISTIC -->
+       <h2><u>Logistics</u></h2>          
+  			<table class="table table-bordered">
+    		<thead>
+      			<tr>
+              <th> Serial Number </th>
+        			<th>Name</th>
+        			<th>Grade</th>
+      			</tr>
+   			 </thead>
+			 <tbody>
+				   <?php while($row = $logistics->fetch()) { ?>
+				 <tr>
+           <td><?php echo $row['sNum']; ?></td>
+					 <td><?php echo $row['Name']; ?></td>
+        	 <td><?php echo $row['Grade']; ?></td>
+				 </tr>
+				 	 <?php } ?>
+			 </table>
+		</div>
+	</div>
+</div>
+<script src = '/web-files/scripts/jquery-2.1.4.min.js'></script>
+<script src= '/web-files/scripts/bootstrap.js'></script>
+</body>
+</html>
+<!-- HTML - Allocation Page -->
+<!-- CSS - allocation page -->
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 1); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 0, 0, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+<!-- CSS - allocation page -->
+<!-- HTML - Press Page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Press Release</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href="/web-files/Styles/press.css">
+  </head>
+  <body>
+    <div class = "jumbotron">
+	<h1> Press Release </h1>
+
+</div>
+<nav role="navigation" class="navbar navbar-default  navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li style="color:white"><a href="homepage.html">Home</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General Information<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="geninfo.html">General Information</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+          </ul>
+        </li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="committee.html">Committees</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="eb.php">Executive Board</a></li>
+            <li><a href="delegate.php">Delegates</a></li>
+            <li><a href="press.php">Press</a></li>
+            <li><a href="logistics.php">Logistics</a></li>
+          </ul>
+        </li>
+   			<li><a href="allocation.php">Allocations</a></li>
+			<li><a href = "press.html"> Press Release</a></li>
+   		</ul>
+   	</div>
+</nav>
+<section id = "infcols">
+	<div class = "container">
+		<div class="row">
+				<div class="col-md-8"> <h2><u> Press Release </u></h2>
+         <embed src="/web-files/documents/press.pdf" height="600" width="770" type='application/pdf'>
+				</div>
+         <div class="col-md-4" "col-sm-3"> <h2><u> Live Twitter Feed </u></h2>
+             <a class="twitter-timeline" href="https://twitter.com/PodarMUN2015" data-widget-id="636824645983977472">Tweets by @PodarMUN2015</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				 </div>
+				</div>
+  </body>
+<!-- HTML - Press Page -->
+<!-- CSS - Press page -->
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/geninfobg.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.row {
+	background: rgb(77,0,38);
+	background: rgba(77,0,38,0.7);
+	color:#fff;
+	bottom: 0;
+	margin-top: 15px;
+	padding-top: 20px;
+}
+
+	
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}
+<!-- CSS - Press page -->

@@ -1,0 +1,23 @@
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+.jumbotron {
+	background: rgb(17, 100, 147); /* Fall-back for browsers that don't support rgba */
+    background: rgba(17, 100, 147, 1); 
+   text-align: center;
+   color: #fff;
+   margin-bottom: 0;
+}
+
+.navbar-default {
+	background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 0, 0, 0.6); 
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background:rgba(0,0,0, .5);
+	color:white;
+	padding:10px 8px 10px 12px;
+}

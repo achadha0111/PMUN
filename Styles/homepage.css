@@ -1,0 +1,101 @@
+/* COPYRIGHT - Aayush Chadha, Prepared for IBDP Computer Science Internal Assessment, May 2016 */
+body {
+	margin: 0;
+	position: relative;
+	background-image: url(/web-files/img/index.png);
+	height: 100%;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+
+/* Drop Down Menu */
+
+.navbar-toggle {
+	position:relative;
+	font-size: 30px;
+	float:left;
+	display:block;
+	padding: 9px 10px;
+	color: #fff;
+	background-image: none;
+	border: 0 none;
+	top:0px; 
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	outline: 0;
+	opacity: 1;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+	        float: left;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+.open .navbar-toggle { 
+	top:-70px; 
+	opacity: 0;  
+}
+.dropdown-menu {
+	position: absolute;
+	top: -14em;
+	left: 0px;
+	font-size: 20px;
+	padding:0;
+	background:none;
+	border:0 none;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	display:block;
+	opacity:0;
+	-webkit-transition: all .45s;
+	   -moz-transition: all .45s;
+	        transition: all .45s;
+	
+}
+.menu .dropdown-menu .active { 
+	font-weight:bold;
+}
+.menu .open .dropdown-menu { 
+	top:2px;
+	opacity:1;
+}
+.menu .dropdown-menu a { 
+	padding:10px 10px;
+	margin:0;
+	color:white;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+.menu .dropdown-menu a:hover { 
+	background:rgba(255,255,255,.5);
+	color:black;
+	padding:10px 8px 10px 12px;
+}
+.body {
+	font-size: 60px;
+	color: #fff;
+	font-family: "Lucida Calligraphy";
+}
+
+.jumbotron {
+   background: #fff;
+   text-align: left;
+   color: #000;
+   font-family: "Lucida Calligraphy", "Times New Roman";
+}
+.img {
+	max-width: 30%;
+}
+
+
+
+
